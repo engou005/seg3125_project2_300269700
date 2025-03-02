@@ -2,7 +2,7 @@ import gradio as gr
 from groq import Groq
 
 # Initialize API client
-api_key = "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"
+api_key = "gsk_****"
 client = Groq(api_key=api_key)
 
 def get_static_anxiety_advice(history):
